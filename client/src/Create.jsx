@@ -3,7 +3,7 @@ import axios from 'axios';
 import Swal from 'sweetalert2';
 
 function Create() {
-  const [task, setTask] = useState("");  // Ensure it's initialized
+  const [task, setTask] = useState("");  
 
   const handleAdd = () => {
     if (!task.trim()) {  
